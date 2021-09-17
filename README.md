@@ -8,6 +8,8 @@ The task is to find two different *special* numbers inside an integer-valued vec
 SE = \frac{\sigma}{\sqrt{n}}
 ```
 
+$`\sqrt{2}`$
+
 The answer to this problem 
 
 have to be encoded into the 
