@@ -1,4 +1,4 @@
-#Problem Formulation
+# Problem Formulation
 The task is to find two different *special* numbers inside an integer-valued vector $\vec{n}$, which is provided to the quantum computer by a user. The positions i and j of these numbers are to be returned to the user as a state of the quantum computer with the wave function psi = (|bin(i)> + |bin(j)>) / sqrt(2). Here bin(a) stands for the binary representetion of the number a.
 
 
