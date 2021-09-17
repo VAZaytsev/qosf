@@ -49,4 +49,4 @@ The power ![equation](https://latex.codecogs.com/gif.latex?r) is the largest int
 
 with ![equation](https://latex.codecogs.com/gif.latex?N) standing for the number of qubits.
 
-In our case, the Grover's algorithm is applied to the 
+In our case, the Grover's algorithm is applied to ![equation](https://latex.codecogs.com/gif.latex?N_l) qubits which numerates the components of the vector ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bn%7D). We also use ![equation](https://latex.codecogs.com/gif.latex?N_v) qubits to encode the components of this vector and one ancilla qubit.
