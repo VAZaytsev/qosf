@@ -46,3 +46,5 @@ and
 The power ![equation](https://latex.codecogs.com/gif.latex?r) is the largest integer, satisfying the condition
 
 ![equation](https://latex.codecogs.com/gif.latex?r%20%5Cleqslant%20%5Cfrac%7B%5Cpi%7D%7B4%5Carcsin%282%5E%7B-N/2%7D%29%7D%20-%20%5Cfrac%7B1%7D%7B2%7D)
+
+with ![equation](https://latex.codecogs.com/gif.latex?N) standing for the number of qubits.
