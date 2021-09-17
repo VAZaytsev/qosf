@@ -52,3 +52,5 @@ with ![equation](https://latex.codecogs.com/gif.latex?N) standing for the number
 In our case, Grover's algorithm is applied to ![equation](https://latex.codecogs.com/gif.latex?N_l) qubits enumerating the components of the vector ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bn%7D). To encode the values of the components additional ![equation](https://latex.codecogs.com/gif.latex?N_v) qubits are used. As an example, for ![equation](https://latex.codecogs.com/gif.latex?N_l%20%3D%202) the encoding circuit is following 
 
 ![alt text](https://github.com/VAZaytsev/qosf/blob/main/v_construct.png)
+
+To construct circuits for ![equation](https://latex.codecogs.com/gif.latex?U_f) and ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D) one additional ancilla qubit is utilized.
