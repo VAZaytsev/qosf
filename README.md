@@ -6,8 +6,8 @@ The task is to find two different *special* numbers in an integer-valued vector 
 where bin(a) stands for the binary representetion of the number ![equation](https://latex.codecogs.com/gif.latex?a).
 
 It is assumed that 
-1. the length of the vector is 2^N_l
-1. all vector components are different and can take values in the range from 0 to 2^N_v
+1. the length of the vector is ![equation](https://latex.codecogs.com/gif.latex?2%5E%7BN_l%7D)
+1. all vector components are different and can take values in the range from 0 to ![equation](https://latex.codecogs.com/gif.latex?2%5E%7BN_v%7D)
 
 The number is called *special* if its binary representation is either 010101... or 101010... 
 
