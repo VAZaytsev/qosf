@@ -1,9 +1,9 @@
 # Problem Formulation
-The task is to find two different *special* numbers inside an integer-valued vector $\vec{n}$, which is provided to the quantum computer by a user. The positions i and j of these numbers are to be returned to the user as a state of the quantum computer with the wave function psi = (|bin(i)> + |bin(j)>) / sqrt(2). Here bin(a) stands for the binary representetion of the number a.
+The task is to find two different *special* numbers inside an integer-valued vector ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bn%7D), which is provided to the quantum computer by a user. The positions i and j of these numbers are to be returned to the user as a state of the quantum computer with the wave function psi = (|bin(i)> + |bin(j)>) / sqrt(2). Here bin(a) stands for the binary representetion of the number a.
 
 - <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
 ![equation](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)
-![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bn%7D)
+
 
 The answer to this problem 
 
