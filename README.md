@@ -6,25 +6,11 @@ The task is to find two different *special* numbers inside an integer-valued vec
 where bin(a) stands for the binary representetion of the number ![equation](https://latex.codecogs.com/gif.latex?a).
 
 It is assumed that 
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-(i) the length of the vector is 2^N_l
-and 
-(ii) all vector components are different and can take values in the range from 0 to 2^N_v
-Two numbers are called *special* if their binary representation is either or 010101... or 101010... 
+1. the length of the vector is 2^N_l
+1. all vector components are different and can take values in the range from 0 to 2^N_v
+The number is called *special* if it's binary representation is either 010101... or 101010... 
 
-The solution to the problem is expected 
-to be given by the wave function 
-the wave function of the form (|a> + |b>) / sqrt(2)
-
-The positions of the *special* numbers 
-translated into the binary representation
-is the solution of the task and 
-
-##Example
+# Example
 Let us consider the vector
 n = [1,2,7,5]
 that is related to N_l = 2 and N_v = 3
