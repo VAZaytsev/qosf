@@ -33,6 +33,9 @@ Another approach, which allows one to construct exactly the required wave functi
 
 The scematic representation of the Grover algorithm is following
 
+![alt text](https://github.com/VAZaytsev/qosf/blob/main/grover-1.png)
+
+
 
 One of the possible ways to find the *special* numbers and encode their positions in the s
 Is to use the Grover algorithm to 
