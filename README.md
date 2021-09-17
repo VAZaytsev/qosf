@@ -9,8 +9,6 @@ It is assumed that
 1. the length of the vector is ![equation](https://latex.codecogs.com/gif.latex?2%5E%7BN_l%7D)
 1. all vector components are different and can take values in the range from 0 to ![equation](https://latex.codecogs.com/gif.latex?2%5E%7BN_v%7D)
 
-The number is called *special* if its binary representation is either 010101... or 101010... 
-
 # Example
 Let us consider the vector
 ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bn%7D%20%3D%20%5B1%2C2%2C7%2C5%5D)
@@ -23,4 +21,16 @@ The special numbers are on the 1 and 3 positions, therefore, the solution to the
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%5Cpsi%5Crangle%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D%28%5Cvert%20%7B%5Crm%20bin%7D%281%29%20%5Crangle%20&plus;%20%5Cvert%20%7B%5Crm%20bin%7D%283%29%20%5Crangle%29%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D%28%5Cvert%2001%20%5Crangle%20&plus;%20%5Cvert%2011%20%5Crangle%29)
 
-# Solution No1
+# Solution
+
+The most direct way to solve the problem is to use Grover's algorithm.
+With the use of this algorithm one can increase the probabilities of the particular states detection and reduce the contributions of other states.
+The constructed wave function, however, will differ from the desired solution but will provide a good approximation to it.
+Another approach, which allows one to construct exactly the required wave function, is described in the next section.
+
+One of the possible ways to find the *special* numbers and encode their positions in the s
+Is to use the Grover algorithm to 
+In such approach one will get only 
+
+We start from the preparation of the initial state
+to encode the vector into the quantum computer 
