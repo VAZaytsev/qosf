@@ -1,18 +1,9 @@
 # Problem Formulation
-The task is to find two different *special* numbers inside an integer-valued vector ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bn%7D), which is provided to the quantum computer by a user. The positions *i*![equation](https://latex.codecogs.com/gif.latex?i) and ![equation](https://latex.codecogs.com/gif.latex?j) of these numbers are to be returned to the user as a state of the quantum computer with the wave function psi = (|bin(i)> + |bin(j)>) / sqrt(2). Here bin(a) stands for the binary representetion of the number a.
+The task is to find two different *special* numbers inside an integer-valued vector ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bn%7D), which is provided to the quantum computer by a user. The positions ![equation](https://latex.codecogs.com/gif.latex?i) and ![equation](https://latex.codecogs.com/gif.latex?j) of these numbers are to be returned to the user as a state of the quantum computer with the wave function 
 
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
-![equation](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)
+![equation](https://latex.codecogs.com/gif.latex?%5Cvert%5Cpsi%5Crangle%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D%5Cleft%28%5Cvert%7B%5Crm%20bin%7D%28i%29%5Crangle%20&plus;%20%5Cvert%7B%5Crm%20bin%7D%28i%29%5Crangle%5Cright%29),
 
-
-The answer to this problem 
-
-have to be encoded into the 
-encoded into the wave function
-
-solution to the problem is expected 
-to be given by the wave function 
-the wave function of the form 
+where ![equation](https://latex.codecogs.com/gif.latex?%7B%5Crm%20bin%7D%28a%29) stands for the binary representetion of the number ![equation](https://latex.codecogs.com/gif.latex?a).
 
 It is assumed that 
 (i) the length of the vector is 2^N_l
