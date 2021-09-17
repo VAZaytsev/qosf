@@ -6,6 +6,11 @@ The task is to find two different *special* numbers inside an integer-valued vec
 where bin(a) stands for the binary representetion of the number ![equation](https://latex.codecogs.com/gif.latex?a).
 
 It is assumed that 
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
 (i) the length of the vector is 2^N_l
 and 
 (ii) all vector components are different and can take values in the range from 0 to 2^N_v
