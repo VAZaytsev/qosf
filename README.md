@@ -39,5 +39,10 @@ where
 
 ![equation](https://latex.codecogs.com/gif.latex?U_f%5Cvert%20x%5Crangle%20%3D%20%5Cleft%5Clbrace%20%5Cbegin%7Baligned%7D%20-%26%5Cvert%20x%20%5Crangle%2C%20%26%20%5Ctext%7Bfor%7D%5C%20special%5C%20x%20%5C%5C%20%26%20%5Cvert%20x%20%5Crangle%2C%20%26%20%5Ctext%7Botherwise%20%7D%20%5Cend%7Baligned%7D%5Cright.)
 
+and
+
 ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D%5Cvert%20x%5Crangle%20%3D%20%5Cleft%5Clbrace%20%5Cbegin%7Baligned%7D%20%26%5Cvert%20x%20%5Crangle%2C%20%26%20%26%5Ctext%7Bfor%7D%5C%20x%20%3D%200%20%5C%5C%20-%26%20%5Cvert%20x%20%5Crangle%2C%20%26%20%26%5Ctext%7Botherwise%20%7D%20%5Cend%7Baligned%7D%5Cright.)
 
+The power ![equation](https://latex.codecogs.com/gif.latex?r) is the largest integer, satisfying the condition
+
+![equation](https://latex.codecogs.com/gif.latex?r%20%5Cleqslant%20%5Cfrac%7B%5Cpi%7D%7B4%5Carcsin%282%5E%7B-N/2%7D%29%7D%20-%20%5Cfrac%7B1%7D%7B2%7D)
