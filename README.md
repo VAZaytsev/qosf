@@ -7,6 +7,7 @@ The task is to find two different *special* numbers inside an integer-valued vec
 ```math
 SE = \frac{\sigma}{\sqrt{n}}
 ```
+**Theorem**: The translation $[\![e]\!]$ given by
 
 $`\sqrt{2}`$
 
