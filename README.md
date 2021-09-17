@@ -35,7 +35,9 @@ The scematic representation of the Grover algorithm is following
 
 ![alt text](https://github.com/VAZaytsev/qosf/blob/main/grover-1.png)
 
+where
 
+![equation](https://latex.codecogs.com/gif.latex?U_f%5Cvert%20x%5Crangle%20%3D%20%5Cleft%5Clbrace%20%5Cbegin%7Baligned%7D%20-%26%5Cvert%20x%20%5Crangle%2C%20%26%20%5Ctext%7Bfor%7D%5C%20special%5C%20x%20%5C%5C%20%26%20%5Cvert%20x%20%5Crangle%2C%20%26%20%5Ctext%7Botherwise%20%7D%20%5Cend%7Baligned%7D%5Cright.)
 
 One of the possible ways to find the *special* numbers and encode their positions in the s
 Is to use the Grover algorithm to 
