@@ -8,7 +8,8 @@ where bin(a) stands for the binary representetion of the number ![equation](http
 It is assumed that 
 1. the length of the vector is 2^N_l
 1. all vector components are different and can take values in the range from 0 to 2^N_v
-The number is called *special* if it's binary representation is either 010101... or 101010... 
+
+The number is called *special* if its binary representation is either 010101... or 101010... 
 
 # Example
 Let us consider the vector
