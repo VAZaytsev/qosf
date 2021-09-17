@@ -3,7 +3,7 @@ The task is to find two different *special* numbers inside an integer-valued vec
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%5Cpsi%5Crangle%20%3D%20%5Cfrac%7B1%7D%7B%5Csqrt%7B2%7D%7D%5Cleft%28%5Cvert%7B%5Crm%20bin%7D%28i%29%5Crangle%20&plus;%20%5Cvert%7B%5Crm%20bin%7D%28i%29%5Crangle%5Cright%29)
 
-where bin(a) ![equation](https://latex.codecogs.com/gif.latex?%7B%5Crm%20bin%7D%28a%29) stands for the binary representetion of the number ![equation](https://latex.codecogs.com/gif.latex?a).
+where bin(a) ![equation](https://latex.codecogs.com/gif.latex?%28a%29) stands for the binary representetion of the number ![equation](https://latex.codecogs.com/gif.latex?a).
 
 It is assumed that 
 (i) the length of the vector is 2^N_l
