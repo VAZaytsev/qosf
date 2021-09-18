@@ -51,15 +51,15 @@ with ![equation](https://latex.codecogs.com/gif.latex?N) standing for the number
 
 In our case, Grover's algorithm is applied to ![equation](https://latex.codecogs.com/gif.latex?N_l) qubits enumerating the components of the vector ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bn%7D). To encode the values of the components additional ![equation](https://latex.codecogs.com/gif.latex?N_v) qubits are used. As an example, for ![equation](https://latex.codecogs.com/gif.latex?N_l%20%3D%202) the encoding circuit is following 
 
-![alt text](U_n.png)
+![alt text](circuits/U_n.png)
 
 To construct circuits for ![equation](https://latex.codecogs.com/gif.latex?U_f) and ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D) one additional ancilla qubit is utilized. It is assumed that this auxiliary qubit is prepared in ![eqation](https://latex.codecogs.com/gif.latex?%5Cvert%201%5Crangle) state. The circuit for ![equation](https://latex.codecogs.com/gif.latex?U_f) is given by
 
-![alt text](U_f.png)
+![alt text](circuits/U_f.png)
 
 And the circuit for ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D) is
 
-![alt text](U_f_0.png)
+![alt text](circuits/U_f_0.png)
 
 The realization of this algorithm is presented in the files [grover.py](grover.py) and [grover.ipynb](grover.ipynb).
 
@@ -67,7 +67,7 @@ The realization of this algorithm is presented in the files [grover.py](grover.p
 
 Instead of reflacting amplitude of the states in accordance to Grover's algorithm, one can try to transform the states which do not encode the positions of special numbers into the ones carring the such numbers. This can be performed by applying x-gates controlled by ancilla qubits. As an example, let us consider the circuit
 
-![alt text](alternative_circ.png)
+![alt text](circuits/alternative_circ.png)
 
 which solves the problem for the case of vectors with 4 entries. After the second ![equation](https://latex.codecogs.com/gif.latex?U_%7B%5Cvec%7Bn%7D%7D) operator the system takes one of the following states
 
@@ -91,6 +91,6 @@ Though similar circuits can be constructed for the vectors with a larger number 
 # Naive solution
 The most naive approach to the solution of this problem is based on the postprocessing of the measurement data and corresponds to the circuit
 
-![alt text](naive.png)
+![alt text](circuits/naive.png)
 
 The solution of the problem will be encoded in the state of the first two qubits if the ancilla qubit will be detected in state ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%201%20%5Crangle).
