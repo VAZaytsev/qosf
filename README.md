@@ -53,7 +53,7 @@ In our case, Grover's algorithm is applied to ![equation](https://latex.codecogs
 
 ![alt text](https://github.com/VAZaytsev/qosf/blob/main/U_n.png)
 
-To construct circuits for ![equation](https://latex.codecogs.com/gif.latex?U_f) and ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D) one additional ancilla qubit is utilized. It is assumed that this auxilarly qubit is prepared in ![eqation](https://latex.codecogs.com/gif.latex?%5Cvert%201%5Crangle) state. The circuit for ![equation](https://latex.codecogs.com/gif.latex?U_f) is given by
+To construct circuits for ![equation](https://latex.codecogs.com/gif.latex?U_f) and ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D) one additional ancilla qubit is utilized. It is assumed that this auxiliary qubit is prepared in ![eqation](https://latex.codecogs.com/gif.latex?%5Cvert%201%5Crangle) state. The circuit for ![equation](https://latex.codecogs.com/gif.latex?U_f) is given by
 
 ![alt text](https://github.com/VAZaytsev/qosf/blob/main/U_f.png)
 
@@ -85,5 +85,7 @@ which solves the problem for the case of vectors with 4 entries. After the secon
 
 where the lower indexes of the wave function stands for the positions related to the *special* states and, for the sake of simplicity, only the states of the
 first two qubits and first ancilla qubit are presented. It is seen that after applying anticontrolled ![equation](https://latex.codecogs.com/gif.latex?X_1) gate, the wave functions with subscripts 01, 03, 12, and 23 will become the solution to the problem and will not be changed by the rest part of the circuit, which converts the wave functions with subscripts 02 and 13 into the solution.
+
+Though similar circuits can be constructed for the vectors with a larger number of components, this approach seems to be unfeasible since the number of the required operations and auxiliary qubits grow exponentially with the size of the vector.
 
 # Naive solution
