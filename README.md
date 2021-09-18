@@ -33,7 +33,7 @@ Another approach, which allows one to construct exactly the required wave functi
 
 The scematic representation of the Grover algorithm is following
 
-![alt text](https://github.com/VAZaytsev/qosf/blob/main/grover-1.png)
+![alt text](grover.png)
 
 where
 
@@ -51,15 +51,15 @@ with ![equation](https://latex.codecogs.com/gif.latex?N) standing for the number
 
 In our case, Grover's algorithm is applied to ![equation](https://latex.codecogs.com/gif.latex?N_l) qubits enumerating the components of the vector ![equation](https://latex.codecogs.com/gif.latex?%5Cvec%7Bn%7D). To encode the values of the components additional ![equation](https://latex.codecogs.com/gif.latex?N_v) qubits are used. As an example, for ![equation](https://latex.codecogs.com/gif.latex?N_l%20%3D%202) the encoding circuit is following 
 
-![alt text](https://github.com/VAZaytsev/qosf/blob/main/U_n.png)
+![alt text](U_n.png)
 
 To construct circuits for ![equation](https://latex.codecogs.com/gif.latex?U_f) and ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D) one additional ancilla qubit is utilized. It is assumed that this auxiliary qubit is prepared in ![eqation](https://latex.codecogs.com/gif.latex?%5Cvert%201%5Crangle) state. The circuit for ![equation](https://latex.codecogs.com/gif.latex?U_f) is given by
 
-![alt text](https://github.com/VAZaytsev/qosf/blob/main/U_f.png)
+![alt text](U_f.png)
 
 And the circuit for ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D) is
 
-![alt text](https://github.com/VAZaytsev/qosf/blob/main/U_f_0.png)
+![alt text](U_f_0.png)
 
 The realization of this algorithm is presented in the files [grover.py](grover.py) and [grover.ipynb](grover.ipynb).
 
