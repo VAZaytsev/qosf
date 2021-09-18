@@ -61,4 +61,4 @@ And the circuit for ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D
 
 ![alt text](https://github.com/VAZaytsev/qosf/blob/main/U_f_0.png)
 
-The realization of this algorithm is presented in the files xx and xx.
+The realization of this algorithm is presented in the files xx[a relative link](grover.py) and xx.
