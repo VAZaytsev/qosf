@@ -92,3 +92,5 @@ Though similar circuits can be constructed for the vectors with a larger number 
 The most naive approach to the solution of this problem is based on the postprocessing of the measurement data and corresponds to the circuit
 
 ![alt text](naive.png)
+
+The solution of the problem will be encoded in the state of the first two qubits if the ancilla qubit will be detected in state ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%201%20%5Crangle).
