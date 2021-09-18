@@ -63,5 +63,13 @@ And the circuit for ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D
 
 The realization of this algorithm is presented in the files [grover.py](grover.py) and [grover.ipynb](grover.ipynb).
 
+# Alternative solution
+
+Instead of reflacting amplitude of the states in accordance to Grover's algorithm, one can try to transform the states which do not encode the positions of special numbers into the ones carring the such numbers. This can be performed by applying x-gates. As an example
+by inverting 
+instead invert qubits  parts of the states, 
+the states which do not encode 
+
 ![alt text](alternative_circ.png)
 
+# Naive solution
