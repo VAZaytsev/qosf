@@ -84,6 +84,6 @@ which solves the problem for the case of vectors with 4 entries. After the secon
 ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%5Cpsi_%7B23%7D%5Crangle%20%3D%20%5Cfrac%7B1%7D%7B2%7D%5Cleft%28%20%5Cvert%2000%20%5Crangle%20%5Cvert%200%20%5Crangle_a%20&plus;%20%5Cvert%2001%20%5Crangle%20%5Cvert%200%20%5Crangle_a%20&plus;%20%5Cvert%2010%20%5Crangle%20%5Cvert%201%20%5Crangle_a%20&plus;%20%5Cvert%2011%20%5Crangle%20%5Cvert%201%20%5Crangle_a%20%5Cright%29)
 
 where the lower indexes of the wave function stands for the positions related to the *special* states and, for the sake of simplicity, only the states of the
-first two qubits and first ancilla qubit are presented. It is seen that after applying anticontrolled ![equation](https://latex.codecogs.com/gif.latex?X_1) gate, the wave functions 1,3,4, and 6 will become an exact solutions of the problem and will not be changed by the rest part of the circuit
+first two qubits and first ancilla qubit are presented. It is seen that after applying anticontrolled ![equation](https://latex.codecogs.com/gif.latex?X_1) gate, the wave functions with subscripts 01, 03, 12, and 23 will become the solution to the problem and will not be changed by the rest part of the circuit, which converts the wave functions with subscripts 02 and 13 into the solution.
 
 # Naive solution
