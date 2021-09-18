@@ -89,3 +89,6 @@ first two qubits and first ancilla qubit are presented. It is seen that after ap
 Though similar circuits can be constructed for the vectors with a larger number of components, this approach seems to be unfeasible since the number of the required operations and auxiliary qubits grow exponentially with the size of the vector.
 
 # Naive solution
+The most naive approach to the solution of this problem is based on the postprocessing of the measurement data and corresponds to the circuit
+
+![alt text](naive.png)
