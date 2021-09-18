@@ -93,4 +93,4 @@ The most naive approach to the solution of this problem is based on the postproc
 
 ![alt text](circuits/naive.png)
 
-The solution of the problem will be encoded in the state of the first two qubits if the ancilla qubit will be detected in state ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%201%20%5Crangle).
+The solution of the problem will be encoded in the state of the first two qubits if the ancilla qubit will be detected in state ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%201%20%5Crangle). To decrease the number of gates and their complexity, one can utilize ![equation](https://latex.codecogs.com/gif.latex?N_v) auxilarly qubits. Such approach being more appropriate for NISQ devices, will require larger number of measurements. Moreover, the probability to detect the ancilla qubit (or qubits) in the desired state will rapidly decrease with the growth of the vector size.
