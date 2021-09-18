@@ -33,7 +33,7 @@ Another approach, which allows one to construct exactly the required wave functi
 
 The scematic representation of the Grover algorithm is following
 
-![alt text](grover.png)
+![alt text](circuits/grover.png)
 
 where
 
