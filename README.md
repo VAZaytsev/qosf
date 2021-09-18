@@ -65,7 +65,7 @@ The realization of this algorithm is presented in the files [grover.py](grover.p
 
 # Alternative solution
 
-Instead of reflacting amplitude of the states in accordance to Grover's algorithm, one can try to transform the states which do not encode the positions of special numbers into the ones carring the such numbers. This can be performed by applying x-gates. As an example, let us consider the circuit
+Instead of reflacting amplitude of the states in accordance to Grover's algorithm, one can try to transform the states which do not encode the positions of special numbers into the ones carring the such numbers. This can be performed by applying x-gates controlled by ancilla qubits. As an example, let us consider the circuit
 
 ![alt text](alternative_circ.png)
 
