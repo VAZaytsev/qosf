@@ -56,3 +56,7 @@ In our case, Grover's algorithm is applied to ![equation](https://latex.codecogs
 To construct circuits for ![equation](https://latex.codecogs.com/gif.latex?U_f) and ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D) one additional ancilla qubit is utilized. The circuit for ![equation](https://latex.codecogs.com/gif.latex?U_f) is given by
 
 ![alt text](https://github.com/VAZaytsev/qosf/blob/main/U_f.png)
+
+And the circuit for ![equation](https://latex.codecogs.com/gif.latex?U_%7Bf_0%7D) is
+
+![alt text](https://github.com/VAZaytsev/qosf/blob/main/U_f_0.png)
