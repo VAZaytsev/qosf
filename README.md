@@ -31,7 +31,7 @@ With the use of this algorithm, one can increase the probabilities of the partic
 The constructed wave function, however, will differ from the desired solution but will provide a good approximation to it.
 Another approach, which allows one to construct exactly the required wave function, is described in the next section.
 
-The scematic representation of the Grover algorithm is following
+The schematic representation of Grover's algorithm is following
 
 ![alt text](circuits/grover.png)
 
@@ -65,7 +65,7 @@ The realization of this algorithm is presented in the files [grover.py](grover.p
 
 # Alternative solution
 
-Instead of reflacting amplitude of the states in accordance to Grover's algorithm, one can try to transform the states which do not encode the positions of special numbers into the ones carring the such numbers. This can be performed by applying x-gates controlled by ancilla qubits. As an example, let us consider the circuit
+Instead of reflecting the amplitudes of the states in accordance with Grover's algorithm, one can try to transform the states which do not encode the positions of special numbers into the ones carrying such numbers. This can be performed by applying x-gates controlled by ancilla qubits. As an example, let us consider the circuit
 
 ![alt text](circuits/alternative_circ.png)
 
@@ -83,14 +83,13 @@ which solves the problem for the case of vectors with 4 entries. After the secon
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%5Cpsi_%7B23%7D%5Crangle%20%3D%20%5Cfrac%7B1%7D%7B2%7D%5Cleft%28%20%5Cvert%2000%20%5Crangle%20%5Cvert%200%20%5Crangle_a%20&plus;%20%5Cvert%2001%20%5Crangle%20%5Cvert%200%20%5Crangle_a%20&plus;%20%5Cvert%2010%20%5Crangle%20%5Cvert%201%20%5Crangle_a%20&plus;%20%5Cvert%2011%20%5Crangle%20%5Cvert%201%20%5Crangle_a%20%5Cright%29)
 
-where the lower indexes of the wave function stands for the positions related to the *special* states and, for the sake of simplicity, only the states of the
-first two qubits and first ancilla qubit are presented. It is seen that after applying anticontrolled ![equation](https://latex.codecogs.com/gif.latex?X_1) gate, the wave functions with subscripts 01, 03, 12, and 23 will become the solution to the problem and will not be changed by the rest part of the circuit, which converts the wave functions with subscripts 02 and 13 into the solution.
+where the lower indexes of the wave function stand for the positions related to the *special* states and, for the sake of simplicity, only the states of the first two qubits and the first ancilla qubit are presented. It is seen that after applying anticontrolled ![equation](https://latex.codecogs.com/gif.latex?X_1) gate, the wave functions with subscripts 01, 03, 12, and 23 will become the solution to the problem and will not be changed by the rest part of the circuit, which converts the wave functions with subscripts 02 and 13 into the solution.
 
-Though similar circuits can be constructed for the vectors with a larger number of components, this approach seems to be unfeasible since the number of the required operations and auxiliary qubits grow exponentially with the size of the vector.
+Though similar circuits can be constructed for the vectors with a larger number of components, this approach seems to be unfeasible since the number of the required operations and auxiliary qubits grows exponentially with the size of the vector.
 
 # Naive solution
 The most naive approach to the solution of this problem is based on the postprocessing of the measurement data and corresponds to the circuit
 
 ![alt text](circuits/naive.png)
 
-The solution of the problem will be encoded in the state of the first two qubits if the ancilla qubit will be detected in state ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%201%20%5Crangle). To decrease the number of gates and their complexity, one can utilize ![equation](https://latex.codecogs.com/gif.latex?N_v) auxilarly qubits. Such approach being more appropriate for NISQ devices, will require larger number of measurements. Moreover, the probability to detect the ancilla qubit (or qubits) in the desired state will rapidly decrease with the growth of the vector size.
+The solution of the problem will be encoded in the state of the first two qubits if the ancilla qubit will be detected in the state ![equation](https://latex.codecogs.com/gif.latex?%5Cvert%201%20%5Crangle). To decrease the number of gates and their complexity, one can utilize ![equation](https://latex.codecogs.com/gif.latex?N_v) auxiliary qubits. Such an approach being more appropriate for NISQ devices, will require a larger number of measurements. Moreover, the probability to detect the ancilla qubit (or qubits) in the desired state will rapidly decrease with the growth of the vector size.
