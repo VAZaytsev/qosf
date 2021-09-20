@@ -27,7 +27,7 @@ The special numbers are on the 1 and 3 positions, therefore, the solution to the
 # Solution
 
 The most direct way to solve the problem is to use Grover's algorithm.
-With the use of this algorithm one can increase the probabilities of the particular states detection and reduce the contributions of other states.
+With the use of this algorithm, one can increase the probabilities of the particular states detection and reduce the contributions of other states.
 The constructed wave function, however, will differ from the desired solution but will provide a good approximation to it.
 Another approach, which allows one to construct exactly the required wave function, is described in the next section.
 
